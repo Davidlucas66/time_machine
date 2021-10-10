@@ -62,7 +62,7 @@ print('Formatted and Brazil ($brazil)');
 print('GMT Time: ${now.toString('0707 2007-07-07 06:00', brazil)}');
 print('Local Time: ${now.inLocalZone().toString('0707 2007-07-07 06:00', brazil)}\n');
 
-print('Parse French Formatted ZonedDateTime');
+print('Parse Brazil Formatted ZonedDateTime');
 
 // without the 'z' parsing will be forced to interpret the timezone as GMT
 var localText = now
